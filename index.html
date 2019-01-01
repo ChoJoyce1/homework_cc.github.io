@@ -14,14 +14,147 @@
 </head>
 
 <body>
+    
+
     <div class="header">
         <br/>
-        <div class="container-fluid">
-            <h2>先進資訊技術實驗室</h2>
-            <ul class="list-group">
-                <li></li>
-            </ul>
+        <div id="menu">
+            <div class="container-fluid">
+                <ul>
+                    <li class="menu">ENGLISH</li>
+                    <li class="menu">MAP</li>
+                    <li class="menu">BIGRLAB TRELLO</li>
+                    <li class="menu">YOUTUBE</li>
+                    <li class="menu">PROJECTS</li>
+                    <li class="menu">MEMBERS</li>
+                    <li class="menu">RESEARCH</li>
+                    <li class="menu">BIGRLAB</li>
+                </ul>
+                <br/>
+                
+            </div>
         </div>
+        
+        <div id="menu_phone">
+            <img class="menu_icon" src="image/menu.svg" onclick="myShowFrame()"/>
+            <br/> <br/> <br/>
+        </div>
+        <div id="menu_phone">
+            <div class="container-fluid">
+            
+                <div class="navbar" id="myNavbar">
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">ENGLISH</li>
+                        <li class="list-group-item">MAP</li>
+                        <li class="list-group-item">BIGRLAB TRELLO</li>
+                        <li class="list-group-item">YOUTUBE</li>
+                        <li class="list-group-item">PROJECTS</li>
+                        <li class="list-group-item">MEMBERS</li>
+                        <li class="list-group-item">RESEARCH</li>
+                        <li class="list-group-item">BIGRLAB</li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <script>
+
+            var my_show_frame = document.getElementById("myNavbar");
+            function start(){
+                var menu_show_value = true;
+                if(menu_show_value)
+                {
+                    my_show_frame.style.display = "none";
+                    menu_show_value =false;
+                }
+
+            }
+
+            start();
+            function myShowFrame() {
+                var menu_show_value = my_show_frame.style.display == "none";
+                if ( menu_show_value){
+                    my_show_frame.style.display = "block";
+                }else{
+                    my_show_frame.style.display = "none";
+                }
+            }
+        </script>
+
+        <img class="header_img"src="image/logo.png">
+        <br/>
+        <br/>
+        <br/>
+        <div class="BIGRLAB">
+            <div class="container">
+                
+                <h2>WELCOME TO JOIN BIGRLAB</h2>
+                <br/>
+                巨量資料研究實驗室(BIGRLAB)運用「雲端運算」、「大數據匯流與發掘」及「資料視覺化應用」技術：
+                <br/>
+                1.	建置巨量資料實驗室(BIGRLAB)機房與虛擬化雲端運算環境，如Python、Java、Hadoop、Spark、OpenCL、CUDA、Openstack、Proxmox、Docker等技術來Deliver產品，建置虛擬化備援環境，使用多核心與多圖型卡分散式技術來處理大量資料與計算分析工作。
+                <br/>
+                2.	使用大數據匯流與發掘技術來蒐整網路時事社群資訊，透過網路訊息挖掘與資料視覺化應用技術，呈現每日追蹤、 監控、處理及過濾網路上收集大量網路資料，提升蒐研工作效率。
+                <br/>
+                3.	著重於培養研究生與專題生具備學術與實務能力(例如：發掘與提出問題、蒐集與分析文獻、用科學方法解決問題、成果報告與展示)，也鼓勵同學參與專題競賽，能學習知識，知識分享，傳授，從專題競賽中獲得成長。
+                <br/>
+                4.	加入巨量資料實驗室有機會與業界工程師合作開發，能學習到敏捷軟體工程方法及專案軟體工具執行專案計畫開發實務經驗。
+                <br/>
+                歡迎加入「巨量資料研究」實驗室(BIGRLAB)，趕快寄信給蘇老師
+                <br/>
+                請email約時間後，帶成績單與自傳到E6-C203面談。
+                <br/>
+                如email後，超過一天未收到回覆，請檢查送信過程無誤後，再次寄送。
+                <br/>
+                實驗室分機是886-3-4227151分機57974
+
+                <br/>
+            </div>
+
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+        
+        <div class="RESEARCH_TOPICS">
+            <div class="container">
+                <h2>RESEARCH TOPICS</h2>
+                
+                <p>雲端運算</p>
+                <br/>
+                <ul>
+                    <li>虛擬化技術與應用</li>
+                    <li>高速運算與資料處理</li>
+                </ul>
+
+                <p>大數據匯流與發掘</p>
+                <br/>
+                <ul>
+                    <li>情感及趨勢分析</li>
+                    <li>行銷口碑研究</li>
+                    <li>網路溫度計</li>
+                </ul>
+                <p>資料視覺化應用</p>
+                <br/>
+
+            
+            </div>
+        </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+        <div class="MEMBERS">
+            
+
+        </div>
+        
+        
     </div>
 </body>
 

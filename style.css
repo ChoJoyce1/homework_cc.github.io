@@ -1,0 +1,56 @@
+
+.menu {
+    display: inline;
+    float: right;
+    padding-left: 1%;
+}
+
+.header_img{
+    width: 100%;
+    height: auto;
+}
+
+.BIGRLAB{
+    text-align: right;
+}
+
+
+.RESEARCH_TOPICS{
+    background: #1d4e98;
+    color: #ffffff;
+    
+}
+
+#menu{
+    display: block;
+}
+#menu_phone{
+    display: none;
+}
+
+.menu_icon{
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+}
+    @media only screen and (max-width: 768px) {
+        #menu{
+            display: none;
+            color: #ffffff;
+        }
+        #menu_phone{
+            display: block;
+        }
+        .menu_icon{
+            display: block;
+            float: right;
+            width:5%;
+            height: 5%;
+            margin:5px;
+        }
+    }
+    
+
+
